@@ -1,0 +1,17 @@
+site_name: Open311 API Documentation
+theme: readthedocs
+site_url: http://dev.cityofchicago.org/docs/open311
+site_description: Open311 API Documentation
+site_author: City of Chicago
+
+pages:
+- Home: index.md
+- Service Request Metadata:
+  - service_list: service_list.md
+  - service_definition: service_definition.md
+- Service Requests:
+  - service_request: service_request.md
+  - service_requests: service_requests.md
+  - post_service_request: post_service_request.md
+
+copyright: Copyright &copy; 2016 <a href="http://www.cityofchicago.org">City of Chicago</a> and licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
