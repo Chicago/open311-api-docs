@@ -1,8 +1,9 @@
 site_name: Open311 API Documentation
-theme: readthedocs
+theme: flatly
 site_url: http://dev.cityofchicago.org/docs/open311
 site_description: Open311 API Documentation
 site_author: City of Chicago
+extra_css: [extra.css]
 
 pages:
 - Home: index.md
