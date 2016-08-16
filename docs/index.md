@@ -16,14 +16,14 @@ The City of Chicago has a separate environment and URL for testing developer app
 ## Requesting an API key
 
 ### Test
-[http://test311api.cityofchicago.org/open311/v2/apps/new](http://test311api.cityofchicago.org/open311/v2/apps/new)
+[Request test API keys](http://test311api.cityofchicago.org/open311/v2/apps/new) must be requested first.
 
 Visit the above URL to request an API key from the test Open311 system. Your request will be automatically provisioned so you can get started immediately developing against the test Open311 system.
 
 ### Production
-[http://311api.cityofchicago.org/open311/v2/apps/new](http://311api.cityofchicago.org/open311/v2/apps/new)
+[Request production API key](http://311api.cityofchicago.org/open311/v2/apps/new) may be requested after successfully using a test API key.
 
-isit the above URL to request an API key from the test Open311 system. The API Key application you submit will need to be reviewed and approved by City of Chicago Staff to ensure compliance with the [Terms of Service](http://dev.cityofchicago.org/docs/api/tos).
+Production API keys may only be requested after successfully testing with a test API key. The API Key application you submit will need to be reviewed and approved by City of Chicago Staff to ensure compliance with the [Terms of Service](http://dev.cityofchicago.org/docs/api/tos).
 
 ## Service Request Meta Data
 
