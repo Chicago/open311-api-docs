@@ -1,0 +1,12 @@
+language: ruby
+sudo: required
+warnings_are_errors: true
+rvm:
+  - 2.1
+script: # let's just see if it installs and builds
+  - pip install mkdocs
+  - mkdocs build
+notifications: #quiet for now
+  email:
+    on_success: never
+    on_failure: never
