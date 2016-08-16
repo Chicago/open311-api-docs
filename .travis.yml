@@ -10,11 +10,13 @@ notifications:
   email:
     on_success: change
     on_failure: change
+
 deploy:
   provider: s3
   access_key_id: AKIAJYDFNXTTXQULCHEQ
   secret_access_key:
     secure: Uuk9RE/KvOjGH0db43arjqg36pMhq1O6v3uhIZjG4F91z3XmZhpEgRXqH/3p688yDExTmKcUYWj7SP5hiCaaDLHtkJh06gycUhza8aA17T/BW//pjikZ52DW+0k00e+kwv2vceJKj6lhNqZbX3jOqdFNcmB5LDxRtMLwSG8cm//5qijwRFV9RQfXYVz6OySf5nPz2C03n/Qh2jR9+vwICIYVMaX2zNP4QQlfh0scBqvhEad8snydpblSHkr7ELv7HMIjlIrbRSQjule4H5yN/P8lT7ZsZrNRQTuQBR2t9/XJKJ1R5R8bP+meBH3i8Yge0I7NZ9NthpSMROsraVBJ73RPQJ4mt/zD2RGmQ7F7d7d67SJGdaz+eSfNDH1NXy8i9NDqpJ4S8g+drZcp0P87K715jU3VAvESOW0MSDakSUbO/y+APjvcDwp4p2SSh1EJVesRv3VeDjv7j5LrsSaD6V+vcSWcbnYjE76anHyT9AkvHSTKUA7qCSD/MKbY/6OSpJgEKW0pYkVchuFnJPfj0AIVuje/o1fdhrjLnQQwfY234wfx7TRmXWsuhyhLjOnPzT/Lk4sD4UN88M5PWHzqJzEdA+umvAwqBDSfaRnyx6sWOI+ShBNe7Ip+cC8LT3KvLMpIcSviqpy/x/Ol8UKF09f1UhEcfbdWVwj72vZOiDs=
+  skip_cleanup: true
   bucket: dev.cityofchicago.org
   local-dir: site/
   upload-dir: docs/open311/
