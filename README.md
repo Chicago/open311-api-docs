@@ -1,3 +1,5 @@
+[![Build status](https://img.shields.io/travis/Chicago/open311-api-docs/gh-pages.svg?style=flat-square)]()[![Version](https://img.shields.io/github/release/Chicago/open311-api-docs.svg?maxAge=2592000)]()
+
 # Open311 API Documentation
 
 Currently in beta. This documentation is replacing the API documentation currently located at the city's [developer's site](http://dev.cityofchicago.org). This repository is being developed alongside the new City of Chicago developer website ([repo](https://github.com/Chicago/dev.cityofchicago.org)). Contents from this site will be in dev.cityofchicago.org/docs/open311/.
