@@ -19,7 +19,7 @@ deploy:
   skip_cleanup: true
   bucket: dev.cityofchicago.org
   local-dir: site/
-  upload-dir: docs/open311/
+  upload-dir: docs/open311
   on:
     repo: Chicago/open311-api-docs
     branch: master
