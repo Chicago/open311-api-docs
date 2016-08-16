@@ -4,8 +4,8 @@ warnings_are_errors: true
 rvm:
   - 2.1
 script: # let's just see if it installs and builds
-  - pip install mkdocs
-  - mkdocs build
+  - pip install --user mkdocs
+  - mkdocs build --clean
 notifications: #quiet for now
   email:
     on_success: never
