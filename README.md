@@ -2,7 +2,7 @@
 
 # Open311 API Documentation
 
-Currently in beta. This documentation is replacing the API documentation currently located at the city's [developer's site](http://dev.cityofchicago.org). This repository is being developed alongside the new City of Chicago developer website ([repo](https://github.com/Chicago/dev.cityofchicago.org)). Contents from this site will be in dev.cityofchicago.org/docs/open311/.
+Currently in beta. This documentation is replacing the API documentation currently located at the city's [developer's site](http://dev.cityofchicago.org). This repository is being developed alongside the new City of Chicago developer website ([repo](https://github.com/Chicago/dev.cityofchicago.org)). Contents from the `master` branch will be in dev.cityofchicago.org/docs/open311/.
 
 ## License
 

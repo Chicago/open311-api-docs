@@ -22,4 +22,4 @@ deploy:
   upload-dir: docs/open311/
   on:
     repo: Chicago/open311-api-docs
-    branch: issue2
+    branch: master
