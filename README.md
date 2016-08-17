@@ -1,4 +1,4 @@
-[![Build status](https://img.shields.io/travis/Chicago/open311-api-docs/gh-pages.svg?style=flat-square)]()[![Version](https://img.shields.io/github/release/Chicago/open311-api-docs.svg?maxAge=2592000)]()
+[![Build status](https://img.shields.io/travis/Chicago/open311-api-docs/master.svg?style=flat-square&maxAge=2592000)](https://travis-ci.org/Chicago/open311-api-docs)[![Version](https://img.shields.io/github/release/Chicago/open311-api-docs.svg?maxAge=2592000&style=flat-square)](https://github.com/Chicago/open311-api-docs/releases)
 
 # Open311 API Documentation
 
