@@ -1,6 +1,7 @@
-site_name: Open311 API Documentation
+site_name: Open311 API
 theme: flatly
 site_url: http://dev.cityofchicago.org/docs/open311
+repo_url: http://github.com/Chicago/open311-api-docs
 site_description: Open311 API Documentation
 site_author: City of Chicago
 extra_css: [extra.css]
@@ -14,5 +15,6 @@ pages:
   - service_request: service_request.md
   - service_requests: service_requests.md
   - post_service_request: post_service_request.md
+- 'Terms of Service': 'tos.md'
 
-copyright: Copyright &copy; 2016 <a href="http://www.cityofchicago.org">City of Chicago</a> and licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
+copyright: Copyright &copy; 2016-2017 <a href="http://www.cityofchicago.org">City of Chicago</a> and licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
