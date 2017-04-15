@@ -2,7 +2,7 @@ language: ruby
 sudo: required
 warnings_are_errors: true
 rvm:
-  - 2.1
+  - 2.2
 script:
   - pip install --user mkdocs
   - mkdocs build --clean
