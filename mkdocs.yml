@@ -8,7 +8,7 @@ extra_css: [extra.css]
 
 pages:
 - Home: index.md
-- Service Request Metadata:
+- Metadata:
   - service_list: service_list.md
   - service_definition: service_definition.md
 - Service Requests:
