@@ -1,4 +1,5 @@
 site_name: Open311 API
+theme: readthedocs
 site_url: http://dev.cityofchicago.org/docs/open311
 repo_url: http://github.com/Chicago/open311-api-docs
 site_description: Open311 API Documentation
