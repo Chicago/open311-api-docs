@@ -26,18 +26,21 @@ repo_url: http://github.com/Chicago/open311-api-docs
 
 # Theme
 theme_dir: 'theme/material'
+site_favicon: 'assets/images/favicon.png'
 extra:
-  logo: 'assets/images/city-seal-small.png'
+  logo: 'assets/images/city-seal-inverse-small.png'
   palette:
     primary: 'blue grey'
     accent: 'light blue'
   social:
-    - type: 'home'
-      link: 'http://dev.cityofchicago.org'
-    - type: 'github'
-      link: 'https://github.com/Chicago'
     - type: 'twitter'
       link: 'https://twitter.com/ChicagoCDO'
+    - type: 'github'
+      link: 'https://github.com/Chicago'
+    - type: 'envelope-o'
+      link: 'mailto:developers@cityofchicago.org'
+    - type: 'home'
+      link: 'http://dev.cityofchicago.org'
 
 # Google Analytics
 # google_analytics:
