@@ -1,5 +1,7 @@
 # Open311 API Documentation
 
+Chicago's [311 system](https://www.cityofchicago.org/311) gives residents a central phone number and location to request city services, report non-emergency issues, and get updates on city work. Open311 provides greater access and transparency since it allows developers to build apps and websites on top of Chicago's 311 system. Open311 is a REST-based Application Programmer Inferface (API) that lets developers requests directly to 311 and also retrieve status on existing service requests. 
+
 ## Authentication
 
 You may need an API Key in order to call some endpoints in Chicago's Open311 system. This is indicated in the documentation by a field labeled **"Requires API Key?"**.
@@ -23,7 +25,7 @@ Visit the above URL to request an API key from the test Open311 system. Your req
 ### Production
 [Request production API key](http://311api.cityofchicago.org/open311/v2/apps/new) may be requested after successfully using a test API key.
 
-!!! tip
+!!! attention
     All requests for API keys must first be tested in the development environment.
     Use the same application name as used with the test key to ensure quick turn-around
     for your request. When testing, ensure that your application can successfully write
