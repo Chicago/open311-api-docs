@@ -23,6 +23,12 @@ Visit the above URL to request an API key from the test Open311 system. Your req
 ### Production
 [Request production API key](http://311api.cityofchicago.org/open311/v2/apps/new) may be requested after successfully using a test API key.
 
+!!! tip
+    All requests for API keys must first be tested in the development environment.
+    Use the same application name as used with the test key to ensure quick turn-around
+    for your request. When testing, ensure that your application can successfully write
+    and retrieve service requests.
+
 Production API keys may only be requested after successfully testing with a test API key. The API Key application you submit will need to be reviewed and approved by City of Chicago Staff to ensure compliance with the [Terms of Service](tos/).
 
 ## Service Request Meta Data
