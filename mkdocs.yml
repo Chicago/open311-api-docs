@@ -1,11 +1,11 @@
-site_name: Open311 API
-theme: flatly
-site_url: http://dev.cityofchicago.org/docs/open311
-repo_url: http://github.com/Chicago/open311-api-docs
-site_description: Open311 API Documentation
-site_author: City of Chicago
-extra_css: [extra.css]
 
+# Site Information
+site_name: Open311 API
+site_author: City of Chicago
+site_description: Open311 API Documentation
+site_url: http://dev.cityofchicago.org/docs/open311
+
+# Page Tree
 pages:
 - Home: index.md
 - Metadata:
@@ -17,4 +17,32 @@ pages:
   - post_service_request: post_service_request.md
 - 'Terms of Service': 'tos.md'
 
+# Copyright
 copyright: Copyright &copy; 2016-2017 <a href="http://www.cityofchicago.org">City of Chicago</a> and licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
+
+# Repository Information
+repo_name: Chicago/open311-api-docs
+repo_url: http://github.com/Chicago/open311-api-docs
+
+# Theme
+theme_dir: 'theme/material'
+extra:
+  logo: 'assets/images/city-seal-small.png'
+  palette:
+    primary: 'blue grey'
+    accent: 'light blue'
+  social:
+    - type: 'home'
+      link: 'http://dev.cityofchicago.org'
+    - type: 'github'
+      link: 'https://github.com/Chicago'
+    - type: 'twitter'
+      link: 'https://twitter.com/ChicagoCDO'
+
+# Google Analytics
+# google_analytics:
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - toc(permalink=true)
