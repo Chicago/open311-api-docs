@@ -1,20 +1,20 @@
-# GET services.:format
+# List Available Open311 Services
 
 Provide a list of acceptable 311 service request types and their associated service codes.
 
-| Resource Information |     |
-|----------------------|-----|
-| Method Name | Service List |
-| Requires API key? | No |
-| Response Formats | JSON, XML |
-| HTTP Methods | GET |
-| JSONP | callback=? |
+| Resource Information |                      |
+|----------------------|----------------------|
+| Method               | GET services.:format |
+| Requires API key?    | No                   |
+| Response Formats     | JSON, XML            |
+| HTTP Methods         | GET                  |
+| JSONP                | callback=?           |
 
 ## Arguments
 
-|     Argument      | Required |                        Description                        |
-|-------------------|----------|-----------------------------------------------------------|
-| `jurisdiction_id` | optional | This is currently optional on Chicago's Open311 endpoint. |
+|     Argument      | Required |                                Description                             |
+|-------------------|----------|------------------------------------------------------------------------|
+| `jurisdiction_id` | optional | Optional, but if it is included, it must be set to `cityofchicago.org` |
 
 ## Response Parameters
 

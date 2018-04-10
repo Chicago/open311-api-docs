@@ -1,20 +1,20 @@
-# GET requests.:format
+# Query the Current Status of Multiple Requests
 
 Query the current status of multiple requests. Because the Chicago endpoint may return service requests with no token and no service_reqeust_id in calls to GET service_requests while recently submitted SRs are still being processed by City systems, users of the GET service_requests method should ignore any service requests returned by the API until they have a service_request_id.
 
-| Resource Information |     |
-|----------------------|-----|
-| Method Name | Service Definition |
-| Requires API key? | No |
-| Response Formats | JSON, XML |
-| HTTP Methods | GET |
-| JSONP | callback=? |
+| Resource Information |                      |
+|----------------------|----------------------|
+| Method               | GET requests.:format |
+| Requires API key?    | No                   |
+| Response Formats     | JSON, XML            |
+| HTTP Methods         | GET                  |
+| JSONP                | callback=?           |
 
 ## Arguments
 
 |     Argument         | Required |              |                       Description                        |
 |----------------------|----------|--------------|----------------------------------------------------------|
-| `jurisdiction_id`    | optional |              | This is currently optional on Chicago's Open311 endpoint. |
+| `jurisdiction_id`    | optional |              | Optional, but if it is included, it must be set to `cityofchicago.org` |
 | `service_request_id` | optional |              | To call multiple Service Requests at once, multiple service_request_id can be declared; comma delimited. |
 | `service_code`       | optional |              | Specify the service type by calling the unique ID(s) of the service_codes you wish to query. This defaults to all service codes when not declared; can be declared multiple times, comma delimited (no spaces). |
 | `start_date`         | optional |              | Earliest datetime to include in search. When provided with end_date, allows one to search for requests which have a requested_datetime that matches a given range. Must use w3 format, eg 2010-01-01T00:00:00Z. |
@@ -34,13 +34,13 @@ Query the current status of multiple requests. Because the Chicago endpoint may 
 |----------------|--------------|------------------------------------------------------------------------|
 | `service_request_id` | | 	The unique ID of the service request created. |
 | `service_code` | | Returns the service_code associated with the definition, the same one submitted for this call. |
-| `status` | The current status of the service request. |
+| `status` | | The current status of the service request. |
 | `status_notes` | |Explanation of why status was changed to current state or more details on current status than conveyed with status alone. |
 | `service_name` | | The human readable name of the service request type. |
 | `service_code` | | The unique identifier for the service request type. |
 | `description` | | A full description of the request or report submitted. |
 | `agency_responsible` | | The agency responsible for fulfilling or otherwise addressing the service request. | |
-| `service_notice` | Information about the action expected to fulfill the request or otherwise address the information reported. |
+| `service_notice` | | Information about the action expected to fulfill the request or otherwise address the information reported. |
 | `requested_datetime` | | The date and time when the service request was made. |
 | `updated_datetime` | Non-standard | TBD: The Chicago implementation uses updated_datetime in a manner that differs from Open311. Documentation is still being compiled. |
 | `expected_datetime` | | The date and time when the service request can be expected to be fulfilled. This may be based on a service-specific service level agreement. |
