@@ -5,10 +5,9 @@ Create a service request in the City's database. Once a service request has been
 | Resource Information |                      |
 |----------------------|----------------------|
 | Method Name          | Post Service Request |
-| Requires API key?    | No                   |
+| Requires API key?    | Yes                  |
 | Response Formats     | JSON, XML            |
-| HTTP Methods         | GET                  |
-| JSONP                | POST                 |
+| HTTP Methods         | POST                 |
 
 ## Arguments
 
