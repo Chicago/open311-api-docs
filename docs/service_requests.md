@@ -14,7 +14,7 @@ Query the current status of multiple requests. Because the Chicago endpoint may 
 
 |     Argument         | Required |              |                       Description                        |
 |----------------------|----------|--------------|----------------------------------------------------------|
-| `jurisdiction_id`    | optional |              | This is currently optional on Chicago's Open311 endpoint. |
+| `jurisdiction_id`    | optional |              | Optional, but if it is included, it must be set to `cityofchicago.org` |
 | `service_request_id` | optional |              | To call multiple Service Requests at once, multiple service_request_id can be declared; comma delimited. |
 | `service_code`       | optional |              | Specify the service type by calling the unique ID(s) of the service_codes you wish to query. This defaults to all service codes when not declared; can be declared multiple times, comma delimited (no spaces). |
 | `start_date`         | optional |              | Earliest datetime to include in search. When provided with end_date, allows one to search for requests which have a requested_datetime that matches a given range. Must use w3 format, eg 2010-01-01T00:00:00Z. |

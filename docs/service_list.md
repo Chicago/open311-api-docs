@@ -12,9 +12,9 @@ Provide a list of acceptable 311 service request types and their associated serv
 
 ## Arguments
 
-|     Argument      | Required |                        Description                        |
-|-------------------|----------|-----------------------------------------------------------|
-| `jurisdiction_id` | optional | This is currently optional on Chicago's Open311 endpoint. |
+|     Argument      | Required |                                Description                             |
+|-------------------|----------|------------------------------------------------------------------------|
+| `jurisdiction_id` | optional | Optional, but if it is included, it must be set to `cityofchicago.org` |
 
 ## Response Parameters
 

@@ -12,9 +12,9 @@ Define attributes associated with a service code.
 
 ## Arguments
 
-|     Argument      | Required |                        Description                        |
-|-------------------|----------|-----------------------------------------------------------|
-| `jurisdiction_id` | optional | This is currently optional on Chicago's Open311 endpoint. |
+|     Argument      | Required |                                      Description                                                |
+|-------------------|----------|-------------------------------------------------------------------------------------------------|
+| `jurisdiction_id` | optional | Optional, but if it is included, it must be set to `cityofchicago.org`                          |
 | `service_code`    | required | The service_code is specified in the main URL path rather than an added query string parameter. |
 | `extensions`      | optional | The Chicago Open311 endpoint provides supplemental details about Service Requests that are in addition to the ones described in the standard specification. These data are nested in the 'extended_attributes' field in the Service Request response. In order to retrieve the new supplemental details, add the query parameter “extensions=true” to any Open 311 api request. |
 
