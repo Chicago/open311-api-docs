@@ -33,7 +33,18 @@ Visit the above URL to request an API key from the test Open311 system. Your req
 
 Production API keys may only be requested after successfully testing with a test API key. The API Key application you submit will need to be reviewed and approved by City of Chicago Staff to ensure compliance with the [Terms of Service](tos/).
 
-## Service Request Meta Data
+## Endpoints
+
+Below are the API endpoints that can be used to access the Open311 API. 
+
+|   Staging  |                API Endpoint                     |
+|------------|-------------------------------------------------|
+| Test       | http://test311api.cityofchicago.org/open311/v2/ |
+| Production | http://311api.cityofchicago.org/open311/v2/     |
+
+The API has two categories of information: metadata about the types of service requests and interacting with service requests.
+
+### Service Request Metadata
 
 Methods that expose data related to how Service Requests will be exposed in the API.
 
@@ -42,7 +53,7 @@ Methods that expose data related to how Service Requests will be exposed in the 
 | GET services.:format | **Service List**: Provide a list of acceptable 311 service request types and their associated service codes. |
 | GET services/:service_code.:format | **Service Definition**: Define attributes associated with a service code. |
 
-## Service Request
+### Service Request
 
 Methods that allow for reading and writing of Service Requests to the City database.
 
