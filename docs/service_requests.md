@@ -34,13 +34,13 @@ Query the current status of multiple requests. Because the Chicago endpoint may 
 |----------------|--------------|------------------------------------------------------------------------|
 | `service_request_id` | | 	The unique ID of the service request created. |
 | `service_code` | | Returns the service_code associated with the definition, the same one submitted for this call. |
-| `status` | The current status of the service request. |
+| `status` | | The current status of the service request. |
 | `status_notes` | |Explanation of why status was changed to current state or more details on current status than conveyed with status alone. |
 | `service_name` | | The human readable name of the service request type. |
 | `service_code` | | The unique identifier for the service request type. |
 | `description` | | A full description of the request or report submitted. |
 | `agency_responsible` | | The agency responsible for fulfilling or otherwise addressing the service request. | |
-| `service_notice` | Information about the action expected to fulfill the request or otherwise address the information reported. |
+| `service_notice` | | Information about the action expected to fulfill the request or otherwise address the information reported. |
 | `requested_datetime` | | The date and time when the service request was made. |
 | `updated_datetime` | Non-standard | TBD: The Chicago implementation uses updated_datetime in a manner that differs from Open311. Documentation is still being compiled. |
 | `expected_datetime` | | The date and time when the service request can be expected to be fulfilled. This may be based on a service-specific service level agreement. |
