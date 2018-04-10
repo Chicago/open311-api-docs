@@ -1,14 +1,14 @@
-# GET services.:format
+# List Available Open311 Services
 
 Provide a list of acceptable 311 service request types and their associated service codes.
 
-| Resource Information |     |
-|----------------------|-----|
-| Method Name | Service List |
-| Requires API key? | No |
-| Response Formats | JSON, XML |
-| HTTP Methods | GET |
-| JSONP | callback=? |
+| Resource Information |                      |
+|----------------------|----------------------|
+| Method               | GET services.:format |
+| Requires API key?    | No                   |
+| Response Formats     | JSON, XML            |
+| HTTP Methods         | GET                  |
+| JSONP                | callback=?           |
 
 ## Arguments
 

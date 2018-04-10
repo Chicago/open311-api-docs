@@ -1,14 +1,14 @@
-# GET services/:service_code.:format
+# Retrieving an Individual Request
 
 Define attributes associated with a service code.
 
-| Resource Information |     |
-|----------------------|-----|
-| Method Name | Service Definition |
-| Requires API key? | No |
-| Response Formats | JSON, XML |
-| HTTP Methods | GET |
-| JSONP | callback=? |
+| Resource Information |                                          |
+|----------------------|------------------------------------------|
+| Method               | GET requests/:service_request_id.:format |
+| Requires API key?    | No                                       |
+| Response Formats     | JSON, XML                                |
+| HTTP Methods         | GET                                      |
+| JSONP                | callback=?                               |
 
 ## Arguments
 

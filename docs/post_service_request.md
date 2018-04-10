@@ -1,13 +1,13 @@
-# POST requests.:format
+# Create a New Service Request
 
 Create a service request in the City's database. Once a service request has been processed by the City (this can take an undetermined amount of time), you should be able to call the GET service_request_id method (tokens/:token_id.:format) to get back the service_request_id for a SR. Therefore, it is nesseary to poll the GET service_request_id method until an SR id is returned. Because the Chicago endpoint may return service requests with no token and no service_reqeust_id in calls to GET service_requests while recently submitted SRs are still being processed by City systems, users of the GET service_requests method should ignore any service requests returned by the API until they have a service_request_id.
 
-| Resource Information |                      |
-|----------------------|----------------------|
-| Method Name          | Post Service Request |
-| Requires API key?    | Yes                  |
-| Response Formats     | JSON, XML            |
-| HTTP Methods         | POST                 |
+| Resource Information |                       |
+|----------------------|-----------------------|
+| Method               | POST requests.:format |
+| Requires API key?    | Yes                   |
+| Response Formats     | JSON, XML             |
+| HTTP Methods         | POST                  |
 
 ## Arguments
 

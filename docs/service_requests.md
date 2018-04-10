@@ -1,14 +1,14 @@
-# GET requests.:format
+# Query the Current Status of Multiple Requests
 
 Query the current status of multiple requests. Because the Chicago endpoint may return service requests with no token and no service_reqeust_id in calls to GET service_requests while recently submitted SRs are still being processed by City systems, users of the GET service_requests method should ignore any service requests returned by the API until they have a service_request_id.
 
-| Resource Information |     |
-|----------------------|-----|
-| Method Name | Service Definition |
-| Requires API key? | No |
-| Response Formats | JSON, XML |
-| HTTP Methods | GET |
-| JSONP | callback=? |
+| Resource Information |                      |
+|----------------------|----------------------|
+| Method               | GET requests.:format |
+| Requires API key?    | No                   |
+| Response Formats     | JSON, XML            |
+| HTTP Methods         | GET                  |
+| JSONP                | callback=?           |
 
 ## Arguments
 
